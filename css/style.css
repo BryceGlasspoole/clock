@@ -1,0 +1,35 @@
+html, body {
+	margin: auto;
+	background: #5D99B100;
+	overflow: hidden;
+	font-family:'Open Sans';
+	display:flex;
+	flex-direction:column;
+	height:100vmin;
+	width:100vmin;
+	color:#fff;
+	justify-content:center;
+}
+#clockHolder{
+	position:relative;
+	display:block;
+}
+#canvas{
+	position:relative;
+	display:block;
+	height:74vmin;
+	width:auto;
+	margin:auto;
+}
+#dateAndTime{
+text-align:center;
+font-size:12vmin;
+line-height:11vmin;
+white-space: nowrap;
+}
+#clock{
+text-align:center;
+font-size:12vmin;
+line-height:11vmin;
+white-space: nowrap;
+}
